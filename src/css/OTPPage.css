@@ -1,0 +1,60 @@
+/* OtpVerification.css */
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .otp-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .otp-input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .verify-button {
+    padding: 10px 20px;
+    background-color: #fd6704;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .verify-button:hover {
+    background-color: #fd6704;
+  }
+
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+  .phone-input {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .otp-ui {
+    display: flex;
+    justify-content: center;
+  }

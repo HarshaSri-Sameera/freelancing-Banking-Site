@@ -1,0 +1,93 @@
+/* .signin-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .signin-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .signin-container h2 {
+    margin-bottom: 15px;
+  }
+  
+  /* .signin-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  } */
+  
+  /* .signin-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none; 
+    border-bottom: 1px solid grey; 
+    background: transparent; 
+  } */
+  
+  
+  /* .signin-container button {
+    background-color: #fd6704;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+  } */
+  
+  .signin-container button:hover {
+    background-color:#fd6704;
+  }
+
+  #create-button {
+    color: #fd6704;
+  }
+  
+  #create-button:hover {
+    background-color: #f9eae0;
+  }
+  
+  .language-dropdown select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fd6704;
+    color: #ccc;
+  }
+
+  .password-toggle-icon {
+    position: absolute;
+    z-index: 1000;
+    margin-right: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  .info-icon {
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .carousel-image {
+    max-width: 25vw; 
+    height: 70vh;   
+  }
+
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #fd6704;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(247, 142, 22, 0.9), rgb(253, 103, 4, 0.9));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(247, 142, 22, 0.9), rgb(253, 103, 4, 0.9));
+  }

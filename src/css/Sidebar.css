@@ -1,0 +1,32 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background-color: #BCC6CC;
+    color: black;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #ccc;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sidebar li:last-child {
+    border-bottom: none;
+  }
+  
+  .sidebar li:hover,
+  .sidebar li.active {
+    background-color: #f6f5f5;
+    color: black;
+  }
